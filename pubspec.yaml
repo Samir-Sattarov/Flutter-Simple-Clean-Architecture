@@ -1,0 +1,37 @@
+name: new_architecture
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+
+  
+  flutter:
+    sdk: flutter
+  dartz:
+  dio:
+  equatable:
+  get_it:
+  flutter_bloc:
+  internet_connection_checker:
+  flutter_screenutil:
+  flutter_secure_storage:
+  spider:
+  flutter_svg:
+  easy_localization:
+  flutter_keyboard_visibility:
+  dio_cache_interceptor: 
+  mask_text_input_formatter: ^2.9.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
