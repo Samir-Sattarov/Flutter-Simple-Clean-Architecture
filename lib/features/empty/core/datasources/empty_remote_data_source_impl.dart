@@ -1,5 +1,8 @@
 import '../models/test_model.dart';
-import 'empty_remote_data_source.dart';
+
+abstract class EmptyRemoteDataSource {
+  Future<TestModel> getTest();
+}
 
 class EmptyRemoteDataSourceImpl extends EmptyRemoteDataSource {
   // final ApiClient _client;
